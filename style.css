@@ -1,0 +1,125 @@
+*{
+     background:#eaeeff;
+     font-family: 'Inter';
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 100%;
+     overflow-y: hidden;
+     
+ }
+     
+ 
+
+
+ .logo{
+     padding-top: 10px;
+     margin-left: 10px;
+     color:#0A3871 ;
+     font-size: 34px;
+     font-weight: bolder;
+     font-family:Georgia,'Arial Narrow Bold', sans-serif;
+   
+     
+ }
+ 
+ main{
+     display: flex;
+     margin-bottom: 10px;
+     margin-left: 200px;
+     
+ }
+ 
+ .text-area {
+     height: 300px;
+     border: none;
+     color: #0A3871;
+     margin-top: 30px;
+     padding: 2px;
+     text-transform: lowercase;
+ }
+ ::placeholder 
+   .text-area:focus {
+       outline: none;
+     }
+ 
+ .mensaje{
+     
+     height: 365px;
+     background: white;
+     background-image: url(../img/buscador.png);
+     background-size: 170px ;
+     background-repeat: no-repeat;
+     background-position: center;
+     font-weight: bolder;
+     border: none;
+     border-radius: 24px;
+     color: #0A3871;
+     margin-left: 98px;
+     margin-top: 20px;
+     padding-left: 20px;
+     position: fixed;
+ }
+ .mensaje:focus {
+     outline: none;
+ }
+ 
+ .botones{
+     display: flex;
+     margin-top: 18px;
+ }
+ 
+ .btn-desencriptar {
+     background-color: #f4f9ff;
+     color: #0A3871;
+     border: 1px solid #0A3871;
+     border-radius: 24px;
+     cursor: pointer;
+     height: 67px;
+     margin-left: 30px;
+     width: 250px;
+     transition: 0.1s background;
+     
+ }
+ 
+ .btn-desencriptar:hover{
+     background-color: #0A3871;
+     color: white;
+     
+
+ }
+ 
+ .btn-encriptar {
+     background-color: #027bb8;
+     border: 1px solid #027bb8;
+     border-radius: 24px;
+     color: white;
+     cursor: pointer;
+     height: 67px;
+     width: 250px;
+     
+     transition: 0.1s background
+ }
+ 
+ .btn-encriptar:hover{
+     background-color: #0A3871;
+ }
+
+
+ .copiar {
+     border: 1px solid #0A3871;
+     border-radius: 24px;
+     color: #0A3871;
+     cursor: pointer;
+     height: 60px;
+     margin-left: 120px;
+     margin-top: 400px;
+     position: absolute;
+     width: 180px;
+ }
+
+ 
+ .informacion {
+     color: #495057;
+     font-size:18px;
+
+ }
